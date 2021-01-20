@@ -1,0 +1,13 @@
+go to:
+public/.htaccess
+change:
+RewriteBase /php/posts-mvc/public
+to:
+RewriteBase /FULL_ONLINE_FOLDER_PATH
+
+go to:
+app/config/config.php
+change:
+define('URLROOT', 'http://localhost/php/posts-mvc');
+to
+define('URLROOT', 'FULL_ONLINE_URL');
